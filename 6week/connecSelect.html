@@ -3,12 +3,12 @@
 <head><meta charset="utf-8"/><meta name="viewport"content="width=device-width,initial-scale=1"/>
 <script>
   function categoryChange(e) {
-  var good_a = ["i7-9900K", "i7-9700K", "i5-9600K", "i5-9400"];
-  var good_b = ["RYZEN7 2700X", "RYZEN7 2700", "RYZEN5 2600X", "RYZEN5 2600"];
-  var target = document.getElementById("good");
+  var cpu_a = ["i7-9900K", "i7-9700K", "i5-9600K", "i5-9400"];
+  var cpu_b = ["RYZEN7 2700X", "RYZEN7 2700", "RYZEN5 2600X", "RYZEN5 2600"];
+  var target = document.getElementById("cpu");
  
-  if(e.value == "a") var d = good_a;
-  else if(e.value == "b") var d = good_b;
+  if(e.value == "a") var d = cpu_a;
+  else if(e.value == "b") var d = cpu_b;
  
   target.options.length = 0;
  
@@ -30,7 +30,7 @@
   <option value="a">Intel</option>
   <option value="b">AMD</option>
 </select>
-<select id="good">
+<select id="cpu">
 <option>원하는 제품을 골라주세요</option>
 </select>
 </fieldset>
