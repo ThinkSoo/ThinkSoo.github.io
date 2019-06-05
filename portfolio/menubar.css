@@ -33,7 +33,7 @@ text-decoration:none;
 }
 
 .menubar li a:hover, .menubar ul li:hover a{
-background: rgb(71,71,71);
+background: rgb(255,0,0);
 color:#FFFFFF;
 text-decoration:none;
 }
@@ -79,7 +79,7 @@ text-align:left;
 }
 
 .menubar li ul a:hover, .menubar li ul li:hover a{
-background: rgb(71,71,71);
+background: rgb(255,0,0);
 border:0px;
 color:#ffffff;
 text-decoration:none;
